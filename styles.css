@@ -1,5 +1,82 @@
-/* your code here */
-footer{
-	background-color:black;
-	color:white;
+footer {
+  background-color: black;
+  color: white;
+  padding: 40px 20px 20px 20px; 
+  box-sizing: border-box;
 }
+
+
+.top {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  margin-bottom: 40px;            
+}
+
+.logo_name {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.media-icons {
+  display: flex;                 
+}
+
+.icon {
+  display: inline-flex;           
+  justify-content: center;
+  align-items: center;
+  width: 35px;                   
+  height: 35px;
+  margin-left: 8px;               
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.link-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 40px;            
+}
+
+.link-boxes > div {
+  width: 22%;                    
+}
+
+.link-boxes ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0 0;
+}
+
+.link-boxes li {
+  margin-bottom: 10px;
+  color: #ddd;
+}
+
+
+.bottom-details {
+  width: 100%;
+}
+
+.bottom_text {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid #444;     
+  padding: 15px 0;
+  box-sizing: border-box;
+}
+
+.bottom_text span:first-of-type {
+  font-weight: 500;
+}
+
